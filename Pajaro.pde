@@ -32,14 +32,4 @@ class Pajaro extends GameObject implements IVisuable {
     }
     //println(posicion);
   }
-
-  // ------ METODO DETENER ------- //
-  public void detener() {
-    stop=true;
-  }
-
-  // ------- METODO REANUDAR ------ //
-  public void reanudar() {
-    stop = false;
-  }
 }
